@@ -47,6 +47,7 @@ Located in `/ci-cd`:
 ## 🔧 Running a Script Example
 
 chmod +x scripts/check-disk-usage.sh
+
 ./scripts/check-disk-usage.sh
 
 
@@ -56,8 +57,11 @@ chmod +x scripts/check-disk-usage.sh
 
 
 cd terraform
+
 terraform init
+
 terraform plan
+
 terraform apply
 
 
@@ -67,6 +71,7 @@ terraform apply
 
 
 cd ansible
+
 ansible-playbook -i inventory.ini playbook.yml
 
 
