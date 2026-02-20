@@ -45,6 +45,7 @@ Located in `/ci-cd`:
 ---
 
 ## 🔧 Running a Script Example
+
 chmod +x scripts/check-disk-usage.sh
 ./scripts/check-disk-usage.sh
 
@@ -72,6 +73,7 @@ ansible-playbook -i inventory.ini playbook.yml
 ---
 
 ## 🧪 CI/CD (GitHub Actions)
+
 Place `github-actions.yml` into:
 
 
@@ -83,4 +85,5 @@ GitHub will automatically run your CI/CD pipeline.
 ---
 
 ## 🤝 Contribution
+
 Feel free to modify anything or submit PRs.
