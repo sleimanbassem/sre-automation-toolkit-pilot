@@ -45,3 +45,42 @@ Located in `/ci-cd`:
 ---
 
 ## 🔧 Running a Script Example
+chmod +x scripts/check-disk-usage.sh
+./scripts/check-disk-usage.sh
+
+
+---
+
+## 🌍 Deploying Terraform Example
+
+
+cd terraform
+terraform init
+terraform plan
+terraform apply
+
+
+---
+
+## ▶ Running Ansible Example
+
+
+cd ansible
+ansible-playbook -i inventory.ini playbook.yml
+
+
+---
+
+## 🧪 CI/CD (GitHub Actions)
+Place `github-actions.yml` into:
+
+
+.github/workflows/github-actions.yml
+
+
+GitHub will automatically run your CI/CD pipeline.
+
+---
+
+## 🤝 Contribution
+Feel free to modify anything or submit PRs.
